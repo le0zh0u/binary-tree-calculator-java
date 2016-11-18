@@ -6,7 +6,7 @@ public class Calculator {
   }
 
   public void calculator() {
-    double a = new TreeNode("1*2*(3+4+5+6)").calculate();
+    double a = new TreeNode("1*2/((3+4)*(-5+6))").calculate();
     System.out.println(a);
   }
 
